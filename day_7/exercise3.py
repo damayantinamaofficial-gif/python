@@ -32,8 +32,8 @@ print(names)
 students.update({"103":{"name":"Pari","marks":40}})
 print(students)
 
-## Method-2
-names = [std["name"] for std in students.values()]
+## Method-2 
+names = [std["name"] for std in students.values()] #List Comprehensions
 students["104"] = {"name":"Pari 2","marks":45}
 students["101"]["marks"] = 100
 print(names,students)
