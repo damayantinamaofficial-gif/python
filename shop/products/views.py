@@ -8,4 +8,4 @@ def home(request):
         'shop_name': 'My Shop'
     }
     #return HttpResponse("Home page")
-    return render(request,'home.html',context)
+    return render(request,'products/home.html',context)
